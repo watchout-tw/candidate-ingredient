@@ -34,7 +34,7 @@
       "title": "【ETtoday】五支箭／政治替有錢人代言　苗博雅：貧窮問題難解！",
       "url": "http://www.ettoday.net/news/20150329/485433.htm",
       "issues": {
-        "兩岸": 1,
+        "兩岸": 4,
         "參政": 1,
         "國際": 1,
         "勞工": 1
@@ -46,7 +46,7 @@
       "issues": {
         "教育": 1,
         "國際": 1,
-        "勞工": 1,
+        "勞工": 4,
         "同性": 1
       }
     },
@@ -97,27 +97,27 @@
       "issues": {
         "兩岸": 1,
         "國際": 1,
-        "勞工": 1
+        "勞工": 4
       }
     },
     {
       "title": "【BuzzOrange】支持廢死與身為同志是我參選的最大爭議，但我絕不改變信念 — 專訪社民黨立委參選人苗博雅",
       "url": "http://buzzorange.com/2015/04/09/interview-with-miao-poya/",
       "issues": {
-        "教育": 1,
-        "參政": 1,
-        "國際": 1,
-        "經濟": 1,
-        "社會福利": 1,
-        "勞工": 1,
-        "同性": 1
+        "教育": 4,
+        "參政": 4,
+        "國際": 4,
+        "經濟": 4,
+        "社會福利": 4,
+        "勞工": 4,
+        "同性": 4
       }
     },
     {
       "title": "【apple】焦點評論：同志們 今年過得好嗎（苗博雅）",
       "url": "http://www.appledaily.com.tw/appledaily/article/headline/20141025/36168326/",
       "issues": {
-        "國際": 1,
+        "國際": 4,
         "經濟": 1,
         "同性": 1
       }
@@ -141,14 +141,14 @@
       "title": null,
       "url": "http://share.flog.cc/post/82685362301",
       "issues": {
-        "教育": 1
+        "教育": 4
       }
     },
     {
       "title": "【中時】網路連柯大小眼　苗博雅：換個人講就推爆",
       "url": "http://www.chinatimes.com/realtimenews/20141015003945-260407",
       "issues": {
-        "兩岸": 1,
+        "兩岸": 4,
         "國際": 1,
         "經濟": 1,
         "食安": 1
@@ -192,17 +192,18 @@
       "title": "【ETtoday】「弱弱相殘」笑到最後的還是那些既得利益者",
       "url": "http://www.ettoday.net/news/20150103/446371.htm",
       "issues": {
-        "兩岸": 1,
+        "兩岸": 4,
         "教育": 1,
         "國際": 1,
-        "勞工": 1
+        "勞工": 1,
+        "醫療": 2
       }
     },
     {
       "title": null,
       "url": "http://m.commonhealth.com.tw/article/article.action?nid=69845",
       "issues": {
-        "醫療": 1
+        "醫療": 4
       }
     },
     {
@@ -218,7 +219,7 @@
       "title": "【蘋果】焦點評論：同志們 今年過得好嗎（苗博雅）",
       "url": "http://www.appledaily.com.tw/appledaily/article/headline/20141025/36168326/",
       "issues": {
-        "國際": 1,
+        "國際": 4,
         "經濟": 1,
         "同性": 1
       }
@@ -250,7 +251,7 @@
       "title": "【蘋果】焦點評論：讓陽光照進黑暗監所（苗博雅）",
       "url": "http://www.appledaily.com.tw/appledaily/article/headline/20150213/36387073/",
       "issues": {
-        "國際": 1,
+        "國際": 4,
         "醫療": 1
       }
     },
@@ -258,7 +259,7 @@
       "title": "【幹什麼網摘】有人願意留自己的寫來爭取人權 另一群人只在意他們沒禮貌",
       "url": "http://share.flog.cc/post/82685362301",
       "issues": {
-        "教育": 1
+        "教育": 4
       }
     }
   ]
