@@ -12,16 +12,9 @@ augment = (i) ->
     return done(null, story <<< issues: {}) if err
     body = (cheerio.load res.text)("article")
     data.issues.forEach (n) ->
-      if body.text!.indexOf(n) > -1
+      if body.text!.search(n) > -1
         story.issues ||= {}
-        story.issues[n] ||= 0
-        story.issues[n]++
-    title = (cheerio.load res.text)("title")
-    data.issues.forEach (n) ->
-      if body.text!.indexOf(n) > -1
-        story.issues ||= {}
-        story.issues[n] ||= 0
-        story.issues[n]++
+        story.issues[n] ||= 1
     console.log story
     done null, story
 
