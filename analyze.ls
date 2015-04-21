@@ -7,9 +7,10 @@ data = fs.readFileSync "data.json" |> JSON.parse
 augment = (i) ->
   story = data.stories[i]
   (done) ->
+    story.issues = {}
     err, res <- superagent story.url .end
     return done(null, story <<< issues: {}) if err
-    body = (cheerio.load res.text)("section")
+    body = (cheerio.load res.text)("article")
     data.issues.forEach (n) ->
       if body.text!.indexOf(n) > -1
         story.issues ||= {}
