@@ -10,9 +10,13 @@ augment = (i) ->
     story.issues = {}
     err, res <- superagent story.url .end
     return done(null, story <<< issues: {}) if err
-    body = (cheerio.load res.text)("article")
+    body = cheerio.load res.text
     data.issues.forEach (n) ->
-      if body.text!.search(n) > -1
+      if body("article").text!.search(n) > -1
+        story.issues ||= {}
+        story.issues[n] ||= 1
+    data.issues.forEach (n) ->
+      if body("title").text!.search(n) > -1
         story.issues ||= {}
         story.issues[n] ||= 1
     console.log story
