@@ -9,13 +9,19 @@ augment = (i) ->
   (done) ->
     err, res <- superagent story.url .end
     return done(null, story <<< issues: {}) if err
-    body = cheerio res.text
+    body = (cheerio.load res.text)("section")
     data.issues.forEach (n) ->
       if body.text!.indexOf(n) > -1
         story.issues ||= {}
         story.issues[n] ||= 0
         story.issues[n]++
-    #console.log story
+    title = (cheerio.load res.text)("title")
+    data.issues.forEach (n) ->
+      if body.text!.indexOf(n) > -1
+        story.issues ||= {}
+        story.issues[n] ||= 0
+        story.issues[n]++
+    console.log story
     done null, story
 
 jobs = [ augment(i) for i from 0 to data.stories.length - 1]
