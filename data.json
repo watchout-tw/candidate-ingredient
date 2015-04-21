@@ -7,7 +7,7 @@
   "issues": [
     "環保",
     "兩岸",
-    "勞權",
+    "勞權|勞工",
     "居住",
     "教育",
     "參政",
@@ -16,42 +16,47 @@
     "醫療",
     "食安",
     "社會福利",
-    "勞工",
-    "同性"
+    "同性|同志|性別",
+    "死刑|廢死"
   ],
   "stories": [
     {
       "title": "【ETtoday】柯文哲「酷吏」作風逼哭秘書　苗博雅批無視公務員勞權",
       "url": "http://www.ettoday.net/news/20141229/444862.htm",
       "issues": {
-        "勞權": 2,
-        "勞工": 2
+        "勞權|勞工": 1,
+        "死刑|廢死": 1
       }
     },
     {
       "title": "【ETtoday】五支箭／政治替有錢人代言　苗博雅：貧窮問題難解！",
       "url": "http://www.ettoday.net/news/20150329/485433.htm",
       "issues": {
-        "兩岸": 2,
-        "參政": 2
+        "兩岸": 1,
+        "參政": 1,
+        "死刑|廢死": 1
       }
     },
     {
       "title": "【yam番薯藤】上市櫃首例！遊戲橘子認可同性婚姻",
       "url": "http://n.yam.com/yam/fn/20150421/20150421987555.html",
       "issues": {
-        "同性": 2
+        "同性|同志|性別": 1
       }
     },
     {
       "title": "【apple】悲劇從最微小的錯開始　苗博雅：找最初病因",
       "url": "http://www.appledaily.com.tw/realtimenews/article/new/20150212/558855/",
-      "issues": {}
+      "issues": {
+        "死刑|廢死": 1
+      }
     },
     {
       "title": "【apple】挾持案超展開　苗博雅：白狼登場最荒謬",
       "url": "http://www.appledaily.com.tw/realtimenews/article/new/20150212/558689/",
-      "issues": {}
+      "issues": {
+        "死刑|廢死": 1
+      }
     },
     {
       "title": "【自由】自由開講》苗博雅有這麼恐怖嗎？",
@@ -67,59 +72,64 @@
       "title": "【ETtoday】陸資炒房非秘密？第三勢力立委參選人：還人民居住權",
       "url": "http://www.ettoday.net/news/20150402/487425.htm",
       "issues": {
-        "居住": 2
+        "居住": 1
       }
     },
     {
       "title": "【ETtoday】血汗航空導致飛安意外？苗博雅：這是一種「恐怖循環」",
       "url": "http://www.ettoday.net/news/20150205/463767.htm",
       "issues": {
-        "兩岸": 2,
-        "勞工": 2
+        "兩岸": 1,
+        "勞權|勞工": 1,
+        "死刑|廢死": 1
       }
     },
     {
       "title": "【BuzzOrange】支持廢死與身為同志是我參選的最大爭議，但我絕不改變信念 — 專訪社民黨立委參選人苗博雅",
       "url": "http://buzzorange.com/2015/04/09/interview-with-miao-poya/",
       "issues": {
-        "教育": 2,
-        "經濟": 2
+        "教育": 1,
+        "經濟": 1,
+        "同性|同志|性別": 1,
+        "死刑|廢死": 1
       }
     },
     {
       "title": "【apple】焦點評論：同志們 今年過得好嗎（苗博雅）",
       "url": "http://www.appledaily.com.tw/appledaily/article/headline/20141025/36168326/",
       "issues": {
-        "經濟": 2,
-        "同性": 2
+        "經濟": 1,
+        "同性|同志|性別": 1,
+        "死刑|廢死": 1
       }
     },
     {
       "title": "【三立】「改變是我們這個世代的責任」　立委參選人苗博雅專訪",
       "url": "http://www.setn.com/ColumnNews.aspx?NewsID=70339",
       "issues": {
-        "教育": 2,
-        "參政": 2,
-        "國際": 2,
-        "經濟": 2,
-        "社會福利": 2,
-        "勞工": 2,
-        "同性": 2
+        "勞權|勞工": 1,
+        "教育": 1,
+        "參政": 1,
+        "國際": 1,
+        "經濟": 1,
+        "社會福利": 1,
+        "同性|同志|性別": 1,
+        "死刑|廢死": 1
       }
     },
     {
       "title": null,
       "url": "http://share.flog.cc/post/82685362301",
       "issues": {
-        "教育": 2
+        "教育": 1
       }
     },
     {
       "title": "【中時】網路連柯大小眼　苗博雅：換個人講就推爆",
       "url": "http://www.chinatimes.com/realtimenews/20141015003945-260407",
       "issues": {
-        "兩岸": 2,
-        "食安": 2
+        "兩岸": 1,
+        "食安": 1
       }
     },
     {
@@ -130,7 +140,9 @@
     {
       "title": "【apple】不讓鄭性澤一直玩　臉書帳號遭停權",
       "url": "http://www.appledaily.com.tw/realtimenews/article/new/20141014/487594/",
-      "issues": {}
+      "issues": {
+        "死刑|廢死": 1
+      }
     },
     {
       "title": "【自由】柯文哲祕書哭著離職 挨批無視公務員權益",
@@ -146,8 +158,9 @@
       "title": "【ETtoday】「弱弱相殘」笑到最後的還是那些既得利益者",
       "url": "http://www.ettoday.net/news/20150103/446371.htm",
       "issues": {
-        "兩岸": 2,
-        "勞工": 2
+        "兩岸": 1,
+        "勞權|勞工": 1,
+        "死刑|廢死": 1
       }
     },
     {
@@ -164,8 +177,9 @@
       "title": "【蘋果】焦點評論：同志們 今年過得好嗎（苗博雅）",
       "url": "http://www.appledaily.com.tw/appledaily/article/headline/20141025/36168326/",
       "issues": {
-        "經濟": 2,
-        "同性": 2
+        "經濟": 1,
+        "同性|同志|性別": 1,
+        "死刑|廢死": 1
       }
     },
     {
@@ -190,14 +204,15 @@
       "title": "【蘋果】焦點評論：讓陽光照進黑暗監所（苗博雅）",
       "url": "http://www.appledaily.com.tw/appledaily/article/headline/20150213/36387073/",
       "issues": {
-        "醫療": 2
+        "醫療": 1,
+        "死刑|廢死": 1
       }
     },
     {
       "title": "【幹什麼網摘】有人願意留自己的寫來爭取人權 另一群人只在意他們沒禮貌",
       "url": "http://share.flog.cc/post/82685362301",
       "issues": {
-        "教育": 2
+        "教育": 1
       }
     }
   ]
